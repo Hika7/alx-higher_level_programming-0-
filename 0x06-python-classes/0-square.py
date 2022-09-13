@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-#python3 -c 'print(__import__("my_module").MyClass.__doc__)'
+"""
+Class Square: Defines a square
+"""
 
-'''Empty square.'''
 
-
-class Square: 
-    '''Empty class.'''
+class Square:
+    """ Makes an empty Square Class """
     pass
