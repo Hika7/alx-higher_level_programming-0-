@@ -1,9 +1,12 @@
 #!/usr/bin/python3
+
+'''Empty square.'''
+
 '''
-print(__import__("my_module").MyClass.__doc__)
+python3 -c 'print(__import__("my_module").MyClass.__doc__)'
 '''
 
 
 class Square: 
-    '''empty class'''
+    '''Empty class.'''
     pass
