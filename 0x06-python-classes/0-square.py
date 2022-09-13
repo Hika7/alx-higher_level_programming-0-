@@ -3,6 +3,7 @@
 print(__import__("my_module").MyClass.__doc__)
 '''
 
+
 class Square: 
     '''empty class'''
     pass
