@@ -7,6 +7,7 @@ Circle Math
 
 class MagicClass:
     """ Magic Circle """
+
     def __init__(self, radius=0):
         self.__radius = 0
         if type(radius) is not int and type(radius) is not float:
@@ -16,6 +17,7 @@ class MagicClass:
     def area(self):
         """ Area Math """
         return ((self.__radius) ** 2) * math.pi
+
     def circumference(self):
         """ Circum Math """
         return 2 * math.pi * self.__radius
